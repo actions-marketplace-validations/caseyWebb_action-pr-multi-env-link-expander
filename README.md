@@ -80,7 +80,6 @@ jobs:
 The action requires the following inputs:
 
 - `GITHUB_TOKEN`
-
   - The GitHub token used to authenticate with the GitHub API. This is
     automatically provided by GitHub Actions and does not need to be set
     manually.
@@ -118,7 +117,7 @@ PASS  ./index.test.js
 ...
 ```
 
-Pass additional arguments to jest by adding them to the `npm test` command. For
+Pass additional arguments to Jest by adding them to the `npm test` command. For
 example,
 
 ```bash
